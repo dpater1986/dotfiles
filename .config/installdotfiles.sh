@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo 'Thank you @durdn (https://www.atlassian.com/git/tutorials/dotfiles)
 giturl='git@github.com:dpater1986/dotfiles.git'
 git clone --bare $giturl $HOME/.cfg
 function config {
