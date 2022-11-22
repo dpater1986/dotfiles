@@ -208,6 +208,7 @@ gaps outer 10
 
 # Background
 exec --no-startup-id /usr/bin/feh --bg-scale --zoom fill '/home/dennis/Afbeeldingen/background.jpg'
+exec --no-startup-id /usr/bin/picom
 
 # Autostart
 exec /usr/bin/alacritty
