@@ -202,8 +202,14 @@ bar {
         status_command i3status
 }
 
-# Autostart
+# Gaps
+gaps inner 5
+gaps outer 10
 
+# Background
+exec --no-startup-id /usr/bin/feh --bg-scale --zoom fill '/home/dennis/Afbeeldingen/background.jpg'
+
+# Autostart
 exec /usr/bin/alacritty
 exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/firefox'
 exec --no-startup-id i3-msg 'workspace 3; exec /usr/bin/thunderbird'
@@ -213,3 +219,9 @@ exec --no-startup-id i3-msg 'workspace 5; exec /usr/bin/remmina $HOME/.local/sha
 for_window [window_role="Msgcompose" class="(?i)Thunderbird"] floating enable
 for_window [window_role="About"] floating enable
 for_window [class="vlc"] floating enable
+
+# Disable borders
+for_window [class="firefox"] border pixel 0
+for_window [class="thunderbird"] border pixel 0
+for_window [class="Alacritty"] border pixel 0
+
