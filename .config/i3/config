@@ -203,8 +203,8 @@ bar {
 }
 
 # Gaps
-gaps inner 5
-gaps outer 10
+gaps inner 40
+gaps outer -20
 
 # Background
 exec --no-startup-id /usr/bin/feh --bg-scale --zoom fill '/home/dennis/Afbeeldingen/background.jpg'
