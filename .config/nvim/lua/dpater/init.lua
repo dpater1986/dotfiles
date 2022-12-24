@@ -1,4 +1,4 @@
 require("dpater.set")
 require("dpater.packer")
-require("dpater.keymap")
+require("dpater.remap")
 
