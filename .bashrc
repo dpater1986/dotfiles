@@ -9,4 +9,4 @@ alias bashrc='vim .bashrc'
 
 # Aliases to modify commands
 alias rm='echo "This is not the command you are looking for. Use rmt"; false'
-alias rmt='trash -v
+alias rmt='trash -v'
