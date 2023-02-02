@@ -1,5 +1,5 @@
 export PATH="$PATH":~/.local/bin
-
+[[ -s /home/dennis/.autojump/etc/profile.d/autojump.sh ]] && source /home/dennis/.autojump/etc/profile.d/autojump.sh
 # Aliases for easy config
 alias config='/usr/bin/git --git-dir=/home/dennis/.cfg/ --work-tree=/home/dennis'
 alias configc='config commit -am '
